@@ -1,1 +1,73 @@
-style
+* {
+    box-sizing: border-box; /* падинги не будутрасширять блок */
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    background-image: url(../images/header-bg.jpg);
+    min-height: 793px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.container {
+    max-width: 1200px; /* 1170+15+15 */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.menu__list {
+   display: flex; 
+}
+/* li+li применится ко всем ли, кроме первой */
+.menu__list li+li {
+    padding-left: 50px;
+}
+
+.login {
+    padding-right: 44px;
+    color: ivory;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.menu__list a {
+    color: #ffffff;
+    opacity: 0.5;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all.5s;
+}
+
+.menu__list a:hover {
+    opacity: 1;
+}
+
+.sign-up {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #250F8A;
+    background-color: ivory;
+    padding: 8px 43px;
+    border-radius: 20px;
+}
+
