@@ -44,7 +44,7 @@ a {
 }
 
 .login {
-    padding-right: 44px;
+    margin-right: 44px;
     color: ivory;
     text-transform: uppercase;
     font-weight: 600;
@@ -69,5 +69,45 @@ a {
     background-color: ivory;
     padding: 8px 43px;
     border-radius: 20px;
+}
+
+.header-slider {
+    padding-top: 111px;
+}
+.header-slider__item {
+}
+.header-slider__item-content {
+    display: flex;
+    justify-content: space-between;
+}
+.header-slder__item-info {
+    max-width: 506px;
+    color: #fff;
+}
+.header-slider__title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+   
+    margin-bottom: 10px;
+}
+.header-slider__description {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 55px;
+  margin-bottom: 60px;
+
+}
+.header-slider__btn {
+    text-transform: uppercase;
+    color: #250F8A;
+    font-weight: 600;
+    padding: 13px 39px;
+    background: #FFCA00;
+    border-radius: 25px; 
+
+}
+.header-slider__item-images {
+    margin: 10px 82px 0 0;
 }
 
